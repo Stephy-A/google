@@ -1,0 +1,147 @@
+* {
+    padding: 0%;
+    margin : 0%;
+
+}
+
+body {
+    background-color: white;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.encabezado {
+    width: 100%;
+    height: 80px;
+}
+.menu{
+    position: absolute;
+    right   : 0%;
+    padding : 10px;
+    margin  : 10px;
+}
+
+#inicio {
+    background   : #1a73e8;
+    height       : 70px;
+    width        : 120px;
+    padding      : 10px;
+    color        : white;
+    border-radius: 10%;
+}
+#inicio:hover {
+    background   : #277dee;
+    box-shadow: 0px 0px 2px 2px #82b2f1;
+    
+}
+a {
+    text-decoration: none;
+    margin         : 10px;
+    color          : black;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+#apps{
+    padding: 8px;
+}
+#apps:hover{
+    border-radius: 50%;
+    background: rgb(212, 206, 206);
+}
+
+#centro {
+    width   : 40%;
+    height  : 40%;
+    position: relative;
+    left    : 30%;
+}
+#google {
+    width : 50%;
+    margin: 3%;
+    position: relative;
+    left: 15%;
+
+}
+.buscador{
+    width: 100%;
+    height: 37px;
+    border-radius: 17px;
+    border: 1px solid rgb(212, 206, 206);
+    float: left;
+    
+}
+.buscador:hover{
+    box-shadow: 0px 0px 2px 2px rgb(238, 235, 235);
+}
+.botones{
+    position: absolute;
+    right    : 30%;
+    margin-top: 40px;
+}
+button:hover{
+    box-shadow: 0px 0px 2px 2px rgb(214, 212, 212);
+}
+#creado{
+    position:absolute;
+    right    : 32%;
+    margin-top: 22%;
+}
+
+
+#derecha{
+    position: absolute;
+    right: 3%;
+    margin: 2%;
+    color: rgb(57, 116, 204);
+    
+}
+
+#izquierda{
+    position: absolute;
+    left: 3%;
+    margin: 2%;
+    color: rgb(146, 137, 137);
+}
+
+button {
+    margin-top   : 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    padding: 8px;
+    position: relative;
+    right: 0%;
+    border: none;
+}
+
+
+footer{
+    width: 100%;
+    height: 16%;
+    position: absolute;
+    bottom: 0%;
+    background: #f2f2f2;
+    color: #70757a;
+}
+footer a{
+    color: #70757a;
+}
+
+.foot1{
+    padding: 15px 20px;
+    border-bottom : 1px solid #bdc1c4;
+}
+.foot2{
+    padding: 15px 20px;
+
+}
+#fizquierda{
+    position: absolute;
+    left: 1%;
+}
+#fderecha{
+    position: absolute;
+    right: 5%;
+}
